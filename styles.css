@@ -1,1 +1,67 @@
 /*  your css code here. If applicable */
+table {
+    width: 670px;
+    border-collapse: collapse;
+    margin-bottom: 38px;
+}
+.head{
+font-weight:bolder;
+}
+td {
+    border: 1px solid black;
+    height: 15px;
+    padding: 0;
+}
+
+/* table-1 */
+.table1 {
+    text-align: center;
+}
+
+.table1 td:first-child {
+    text-align: left;
+}
+
+.table1 td:last-child {
+    text-align: right;
+}
+
+.title {
+    font-weight: bold;
+}
+
+
+.table2 td {
+    height: 15px;
+}
+
+
+/* table -3 */
+.table3 {
+    border: 1px solid black;
+    border-collapse: collapse;
+	 width: 670px;
+}
+
+.table3 td {
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+}
+
+.table3 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 400px;
+}
+
+.table3 td {
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+}
+
+.table3 img {
+ object-fit:cover;
+width:670px; 
+}
